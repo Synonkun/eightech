@@ -1,0 +1,796 @@
+html {
+	scroll-behavior: smooth;
+}
+div {
+	display: block;
+}
+@media (min-width: 1200px) {
+
+.navside {
+	text-align: center;
+	background-color: #101a19;
+	position: fixed;
+    top: 0;
+    height: 100%;
+    width: 20%;
+	margin-left: -15px;
+}
+.navside .fa-user-circle {
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+.navside .fa-comment-dots {
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+.navside h1 {
+	color: white;
+	font-size: 50px;
+	font-family: 'Bungee Shade', cursive;
+	margin: 20px 0px; 
+}
+.navside h2 {
+	color: white;
+	font-size: 30px;
+	font-family: 'Damion', cursive;
+	margin: 20px 0px; 
+}
+.navside h3 {
+	color: white;
+	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;
+	margin: 20px 0px;
+	text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 2px;
+}
+.navside h3:before {
+	content: ' ';
+	position: absolute;
+	width: 30px;
+	height: 1px;
+	background-color: white; 
+	margin-top: 5px;
+	margin-left: -40px;
+}
+.navside h3:after {
+	content: ' ';
+	position: absolute;
+	width: 30px;
+	height: 1px;
+	background-color: white; 
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.navside ul li {
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;
+	margin-left: -40px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.navside a {
+	color: white;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: .2s;
+}
+.navside a:hover {
+	color: white;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transform: scale(1.1); 
+}
+.navside .sosmed i {
+	color: white;
+	font-size: 15px;
+	margin: 10px;
+}
+.copyright {
+	color: white;
+	font-size: 15px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 20px;
+}
+.img-side {
+	background-image: url(img/rizky-subagja-YgaZnuH2udI-unsplash.jpg);
+	background-size: cover;
+	position: fixed;
+    left: 20%;
+    height: 100%;
+    width: 20%; 
+}
+
+/* Content */
+.content {
+	position: absolute;
+    left: 40%;
+    top: -20px;
+    height: 100%;
+    width: 60%;
+}
+/* First Content */
+.content .hello {
+	background-image: url(img/andre-benz-bXuWgnBHEk8-unsplash.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;	
+}
+.content .hello h1 {
+	margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Patua One';
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-text-stroke-color:#333;
+    -webkit-text-stroke-width:2px;
+}
+.content .hello h1:before {
+	content: 'HELLO !!!';
+	position: absolute;
+	margin-left: 9px;
+	margin-top: 8px;
+    margin-bottom: 10px;
+    color: #dc3545;
+    font-family: 'Patua One';
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    -webkit-text-stroke-color:#333;
+    -webkit-text-stroke-width:2px;
+}
+.content .hello h1:after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	background-color: #dc3545;
+	top: 150px;
+	left: 45%;
+	margin-bottom: 20px;
+}
+.content .hello h2 {
+	color: white;
+	margin:50px;
+	text-align: right;
+}
+.content .hello h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: white;
+	top: 7.5em;
+	right: 6.5em;
+}
+.content .hello p {
+	color: white;
+	text-indent: 10%;
+	text-align: left;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+	background-color: rgba(0,0,0,.4);
+}
+.content .hello em {
+	color: white;
+	font-size: 20px;
+	margin-left: 75%;
+}
+@keyframes arrow {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(20px);
+	}
+}
+.content .hello h3 {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.content .hello .scroll {
+	animation: arrow 1s infinite alternate;
+	padding-bottom: 40px;
+}
+.content .hello a {
+	color: white;
+	text-decoration: none;
+}
+/* End First Content */
+
+/* Second Content */
+.content .tentang-kami {
+	width: 100%;
+	height: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.content .tentang-kami h2 {
+	color: #101a19;
+	padding: 30px;
+	text-align: right;
+}
+.content .tentang-kami h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: #101a19;
+	margin-top: 45px;
+	right: 6.9em;
+}
+.content .tentang-kami .maps {
+	width: 100%;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.content .tentang-kami .maps h3 {
+	color: #101a19;
+}
+.content .tentang-kami .maps iframe {
+	width: 100%;
+	height: 350px;
+	margin: 20px 0px;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 2px black;
+}
+.content .tentang-kami .sosmed {
+	text-align: center;
+	padding: 22px 0px;
+}
+.content .tentang-kami .sosmed a {
+	text-decoration: none;
+}
+.content .tentang-kami .sosmed i {
+	color: grey;
+	font-size: 15px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+.content .tentang-kami .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.content .tentang-kami .modal-content {
+  background: rgb(210,210,210);
+  background: linear-gradient(180deg, rgba(210,210,210,1) 0%, rgba(255,255,255,1) 100%);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+.content .tentang-kami .modal-content h4 {
+	color: #101a19;
+	font-size: 25px;
+	text-align: left;
+}
+.content .tentang-kami .modal-content h5 {
+	color: #101a19;
+	font-size: 15px;
+	text-align: left;
+}
+.content .tentang-kami .modal-sosmed {
+	text-align: center;
+}
+.content .tentang-kami .modal-sosmed a {
+	text-decoration: none;
+	margin: 5px;
+}
+.content .tentang-kami .modal-sosmed i {
+	background-color: white;
+	font-size: 15px;
+	border: 1px solid grey;
+	border-radius: 5px;	cursor: pointer;
+	-ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+.content .tentang-kami .modal-sosmed .fa-facebook {
+	color: white;
+	background-color: blue;
+}
+.content .tentang-kami .modal-sosmed .fa-pinterest {
+	color: white;
+	background-color: #bd081c;
+}
+/* End second content */
+
+/* Third Content */
+.content .album {
+	width: 100%;
+	height: auto;
+	background-color: #101a19;
+}
+.content .album h2 {
+	color: white;
+	padding: 40px;
+	text-align: right;
+}
+.content .album h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: white;
+	margin-top: 45px;
+	right: 3.35em;
+}
+.content .album img  {
+	width: 100%;
+	height: 100%;
+	margin: 10px 0px;
+	border:1px solid white;
+	border-radius: 10px;
+}
+.content .album .small  {
+	width: 100%;
+	height: 250px;
+	margin: 10px 0px;
+}
+.content .album .small-duo  {
+	width: 100%;
+	height: 150px;
+	margin: 10px 0px;
+}
+.content .album .large {
+	width: 100%;
+	height: 470px;
+	margin-bottom: 35px;
+}
+.content .album h3 a {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+	margin-left:20px;
+	padding-top: -50px;
+	text-transform: capitalize;
+}
+/* End Third Content */
+
+/* Four Content */
+.content .video {
+	width: 100%;
+	height: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.content .video h2 {
+	color: #101a19;
+	padding: 40px;
+	text-align: right;
+}
+.content .video h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: #101a19;
+	margin-top: 45px;
+	right: 3.3em;
+}
+.content .video iframe  {
+	width: 100%;
+	height: 100%;
+	margin: 10px 0px;
+	border:1px solid #101a19;
+	border-radius: 10px;
+}
+.content .video .small  {
+	width: 100%;
+	height: 250px;
+	margin: 10px 0px;
+}
+.content .video .small-duo  {
+	width: 100%;
+	height: 150px;
+	margin: 10px 0px;
+}
+.content .video .large {
+	width: 100%;
+	height: 470px;
+	margin-bottom: 20px;
+}
+.content .video h3 a {
+	color: #101a19;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+	margin-left:20px;
+	padding-top: 20px;
+	text-transform: capitalize;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+.container-fluid {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.navside {
+	width: 100%;
+	height: 600px;
+	background-color: #101a19;
+	text-align: center;
+}
+.navside .fa-user-circle {
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+.navside .fa-comment-dots {
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+.navside h1 {
+	color: white;
+	font-size: 50px;
+	font-family: 'Bungee Shade', cursive;
+	margin: 20px 0px; 
+}
+.navside h2 {
+	color: white;
+	font-size: 30px;
+	font-family: 'Damion', cursive;
+	margin: 20px 0px; 
+}
+.navside h3 {
+	color: white;
+	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;
+	margin: 20px 0px;
+	text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 2px;
+}
+.navside h3:before {
+	content: ' ';
+	position: absolute;
+	width: 30px;
+	height: 1px;
+	background-color: white; 
+	margin-top: 5px;
+	margin-left: -40px;
+}
+.navside h3:after {
+	content: ' ';
+	position: absolute;
+	width: 30px;
+	height: 1px;
+	background-color: white; 
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.navside ul li {
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;
+	margin-left: -40px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.navside a {
+	color: white;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: .2s;
+}
+.navside a:hover {
+	color: white;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transform: scale(1.1); 
+}
+.navside .sosmed i {
+	color: white;
+	font-size: 15px;
+	margin: 10px;
+}
+.copyright {
+	color: white;
+	font-size: 15px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 20px;
+}
+.content {
+    margin-top: -60px;
+    height: 100%;
+    width: 100%;
+}
+.content .hello {
+	background-image: url(img/rizky-subagja-YgaZnuH2udI-unsplash.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;	
+}
+.content .hello h1 {
+	margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Patua One';
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-text-stroke-color:#333;
+    -webkit-text-stroke-width:2px;
+}
+.content .hello h1:before {
+	content: 'HELLO !!!';
+	position: absolute;
+	margin-left: 7px;
+	margin-top: 6px;
+    margin-bottom: 10px;
+    color: #dc3545;
+    font-family: 'Patua One';
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    -webkit-text-stroke-color:#333;
+    -webkit-text-stroke-width:2px;
+}
+.content .hello h2 {
+	color: white;
+	margin:50px;
+	text-align: right;
+}
+.content .hello p {
+	color: white;
+	text-indent: 10%;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.4);
+}
+.content .hello em {
+	color: white;
+	font-size: 20px;
+	margin-left: 60%;
+}
+@keyframes arrow {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(20px);
+	}
+}
+.content .hello h3 {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.content .hello .scroll {
+	animation: arrow 1s infinite alternate;
+}
+.content .hello a {
+	color: white;
+	text-decoration: none;
+}
+/* End First Content */
+/* Second Content */
+.content .tentang-kami {
+	width: 100%;
+	height: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.content .tentang-kami h2 {
+	color: #101a19;
+	padding: 40px;
+	text-align: right;
+}
+.content .tentang-kami h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: #101a19;
+	margin-top: 45px;
+	right: 6.9em;
+}
+.content .tentang-kami .maps {
+	width: 100%;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.content .tentang-kami .maps h3 {
+	color: #101a19;
+}
+.content .tentang-kami .maps iframe {
+	width: 100%;
+	height: 350px;
+	margin: 20px 0px;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 2px black;
+}
+.content .tentang-kami .sosmed {
+	text-align: center;
+	padding: 22px 0px;
+}
+.content .tentang-kami .sosmed a {
+	text-decoration: none;
+}
+.content .tentang-kami .sosmed i {
+	color: #101a19;
+	font-size: 15px;
+	margin: 20px;
+}
+/* End second content */
+
+/* Third Content */
+.content .album {
+	width: 100%;
+	height: auto;
+	background-color: #101a19;
+}
+.content .album h2 {
+	color: white;
+	padding: 40px;
+	text-align: right;
+}
+.content .album h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: white;
+	margin-top: 45px;
+	right: 3.35em;
+}
+.content .album img  {
+	width: 100%;
+	height: 100%;
+	margin: 10px 0px;
+	border:1px solid white;
+	border-radius: 10px;
+}
+.content .album .small  {
+	width: 100%;
+	height: 250px;
+	margin: 10px 0px;
+}
+.content .album .small-duo  {
+	width: 100%;
+	height: 150px;
+	margin: 10px 0px;
+}
+.content .album .large {
+	width: 100%;
+	height: 470px;
+	margin-bottom: 35px;
+}
+.content .album h3 a {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+	margin-left:20px;
+	text-transform: capitalize;
+}
+/* End Third Content */
+
+/* Four Content */
+.content .video {
+	width: 100%;
+	height: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.content .video h2 {
+	color: #101a19;
+	padding: 40px;
+	text-align: right;
+}
+.content .video h2:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: #101a19;
+	margin-top: 45px;
+	right: 3.3em;
+}
+.content .video img  {
+	width: 100%;
+	height: 100%;
+	margin: 10px 0px;
+	border:1px solid #101a19;
+	border-radius: 10px;
+}
+.content .video .small  {
+	width: 100%;
+	height: 250px;
+	margin: 10px 0px;
+}
+.content .video .small-duo  {
+	width: 100%;
+	height: 150px;
+	margin: 10px 0px;
+}
+.content .video .large {
+	width: 100%;
+	height: 470px;
+	margin-bottom: 20px;
+}
+.content .video h3 a {
+	color: #101a19;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+	margin-left:20px;
+	padding-top: 20px;
+	text-transform: capitalize;
+}
+
+}
